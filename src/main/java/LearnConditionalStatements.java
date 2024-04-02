@@ -4,6 +4,7 @@ public class LearnConditionalStatements {
     {
 LearnConditionalStatements lc = new LearnConditionalStatements();
 lc.learnIf(61);
+lc.learnSwitch("");
     }
 
     public void learnIf(int age)
@@ -20,5 +21,22 @@ lc.learnIf(61);
         else
             System.out.println("you are a kid!");
 
+    }
+
+    public void learnSwitch(String corporate) {
+        switch (corporate) {
+            case "developer":
+                System.out.println("you develops the applications");
+                break;
+            case "tester":
+                System.out.println("you test the application");
+                break;
+            case "po":
+                System.out.println("you specify requirements");
+                break;
+            default:
+                System.out.println("you are client");
+
+        }
     }
 }
