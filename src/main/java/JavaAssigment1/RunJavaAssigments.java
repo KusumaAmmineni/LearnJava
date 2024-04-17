@@ -30,6 +30,8 @@ public class RunJavaAssigments {
         Program5_NumbersSquare numbersSquare = new Program5_NumbersSquare();
         numbersSquare.numberSquare();
 
+        //testing to see the username and email
+
     }
 
 }
